@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white-color: rgba(255, 255, 255, 1);
+    --black-color: rgba(0, 0, 0, 1);
+    --light-grey: #F8F8F8;
+    --green-color: #59C878;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+main {
+    background: var(--light-grey);
+    padding: 0 1rem;
+}

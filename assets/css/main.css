@@ -1,0 +1,112 @@
+/* Course portal section */
+#course-portal {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+@media (min-width: 768px) {
+    #course-portal {
+        padding: 5.62rem 0 6.86rem;
+    }
+}
+
+.course-portal__header {
+    margin-bottom: 2.62rem;
+}
+
+.course-portal__header h2 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.02625rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .course-portal__header h2 {
+        font-size: 2.625rem;
+    }
+}
+
+.course-portal__header h2 span {
+    color: var(--green-color);
+}
+
+.course-portal__header p {
+    color: #2D312F;
+    font-family: 'Work Sans', sans-serif;
+    line-height: normal;
+}
+
+.course-portal__main {
+    display: grid;
+    gap: 1.3125rem 1.375rem;
+}
+
+@media (min-width: 768px) {
+    .course-portal__main {
+        grid-template-columns: repeat(auto-fill, minmax(24.9375rem, 1fr));
+    }
+}
+
+.course-card {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1.17356rem;
+    flex-shrink: 0;
+    border-radius: 1.46694rem;
+    background: var(--white-color);
+    transition: all 0.3s;
+}
+
+.course-card:hover {
+    transform: scale(1.03);
+}
+
+@media (min-width: 768px) {
+    .course-card {
+        padding: 1.46694rem 1.1735rem 1.1735rem;
+    }
+}
+
+.course-card__header {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    .course-card__header {
+        gap: 1.1735rem;
+    }
+}
+
+.course-card__header h3 {
+    color: var(--black-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.975rem;
+    font-weight: 600;
+    line-height: 1.76031rem;
+    margin-bottom: 0.07rem;
+}
+
+@media (min-width: 768px) {
+    .course-card__header h3 {
+        font-size: 1.125rem;
+    }
+}
+
+.course-card__header p {
+    color: var(--black-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.46694rem;
+}
+
+.course-card__image img {
+    width: 100%;
+}
