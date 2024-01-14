@@ -13,6 +13,10 @@
     --green-color: #59C878;
 }
 
+body {
+    font-style: normal;
+}
+
 a {
     color: inherit;
     text-decoration: none;
@@ -22,4 +26,3 @@ main {
     background: var(--light-grey);
     padding: 0 2rem;
 }
-
