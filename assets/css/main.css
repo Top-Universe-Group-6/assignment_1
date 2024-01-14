@@ -110,3 +110,70 @@
 .course-card__image img {
     width: 100%;
 }
+
+/*Styles for Do more and Be more*/
+.course-gallery {
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    gap: 61px;
+    max-height: 420px;
+}
+
+.course-gallery .content1 {
+    background: var(--black-color);
+    color: var(--white-color);
+    border: 1px solid var(--black-color);
+}
+
+.course-gallery .content2 {
+    background: var(--white-color);
+    color: var(--black-color);
+    border: 1px solid var(--white-color);
+}
+
+.course-gallery_content {
+    border-radius: 22.997px;
+    border: 1px solid black;
+    background: var(--black-color);
+    color: var(--white-color);
+    /* width: 588.337px;
+    height: 613.251px; */
+    transition: all 0.3s;
+}
+
+.course-gallery_content:hover {
+    transform: scale(1.03);
+}
+
+
+
+.course-gallery_content>div img {
+    width: 586px;
+    height: 420px;
+    border-radius: 0 0 22.97px 22.997px;
+    /* max-height: 100vh; */
+    /* object-fit: contain; */
+}
+
+.course-gallery_header {
+    padding: 38.329px 61.325px 38.328px 61.325px;
+}
+
+.course-gallery_header p {
+    text-transform: uppercase;
+    color: #5F6368;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.997px;
+    letter-spacing: 0.479px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.course-gallery_header h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42.161px;
+    letter-spacing: -0.719px;
+}
