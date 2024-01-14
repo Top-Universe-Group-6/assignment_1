@@ -128,6 +128,13 @@
     }
 }
 
+@media (max-width: 850px) and (min-width: 600px) {
+    .course-gallery {
+        flex-direction: column;
+        max-height: none;
+    }
+}
+
 .course-gallery .content1 {
     background: var(--black-color);
     color: var(--white-color);
@@ -172,6 +179,13 @@
 @media (max-wdith: 500px) {
     .course-gallery_content>div img {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 850px) and (min-width: 600px) {
+    .course-gallery_content>div img {
+        width: 100%;
+        object-fit: cover;
     }
 }
 
