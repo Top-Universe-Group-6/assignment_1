@@ -117,7 +117,7 @@
     justify-content: center;
     /* align-items: flex-start; */
     gap: 61px;
-    max-height: 420px;
+    max-height: 605.251px;
 }
 
 .course-gallery .content1 {
@@ -145,8 +145,6 @@
 .course-gallery_content:hover {
     transform: scale(1.03);
 }
-
-
 
 .course-gallery_content>div img {
     width: 586px;
