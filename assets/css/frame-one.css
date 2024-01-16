@@ -1,5 +1,5 @@
 .desktop {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -8,8 +8,9 @@
 }
 
 .desktop .div {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   width: 1440px;
+  /* width: 1242px; */
   /* height: 40px; */
   position: relative;
 }
@@ -17,7 +18,7 @@
 .desktop .header {
   display: flex;
   flex-direction: column;
-  width: 1440px;
+  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 8px 100px;
@@ -153,11 +154,6 @@
     rgb(171.36, 37.55, 247.56) 83.06%,
     rgb(215.25, 93.8, 251.81) 100%
   );
-}
-
-.desktop .button:hover{
-    background-color: ;
-
 }
 
 .desktop .text-wrapper {
