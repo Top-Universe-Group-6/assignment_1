@@ -70,9 +70,17 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+}
+
 main {
     background: var(--light-grey);
     padding: 0 2rem;
+}
+
+.radius-125 {
+    border-radius: 1.25rem;
 }
 
 .size {
