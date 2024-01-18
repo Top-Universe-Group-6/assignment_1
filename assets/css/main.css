@@ -217,3 +217,44 @@
         line-height: 1.46694rem;
     }
 }
+/* article */
+.article {
+    display: flex;
+    margin: 62.69px auto 163.87px;
+    background-color: #1E1E1E;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 1236px;
+    padding: 56.15px 103.41px 55.5px 104px;
+    border-radius: 22.96px;
+}
+
+.article_heading h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 57.399px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 68.879px; /* 120% */
+    letter-spacing: -1.196px;
+}
+
+.paragraph {
+    display: flex;
+    flex: 1;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16.104px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.143px; /* 137.5% */
+    background: #1E1E1E;
+    gap: 10px;
+}
+
+.top-paragraph {
+    margin-bottom: 2rem;
+}
