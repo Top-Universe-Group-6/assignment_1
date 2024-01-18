@@ -1,0 +1,273 @@
+h2 {
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    padding-bottom: 8px;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 8px;
+}
+
+.merch {
+    max-width: 1242px;
+    margin: 4.73rem auto 2rem;
+    height: 20%;
+}
+
+.merch_categories h1 {
+    font-weight: 600;
+    font-size: 42px;
+    padding-bottom: 0.5em;
+}
+
+.categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+}
+
+.categories_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.categories_items p {
+    color: #444746;
+}
+
+.comic_magazine {
+    max-width: 1242px;
+    margin: 0 auto;
+    background: #fef7e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.comic_magazine_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.magazine_text {
+    width: 50%;
+    height: 100%;
+    margin: 0.5rem;
+}
+
+.frame-three-button {
+    width: 100px;
+    height: 42px;
+    background: #202020;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.education_books {
+    max-width: 1242px;
+    margin: 2rem auto 0;
+    padding: 2rem;
+    background: #edefff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education_books_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education_text {
+    width: 50%;
+    height: 100%;
+    margin: 2rem;
+}
+
+.flash_cards {
+    max-width: 1242px;
+    margin: 2em auto 0;
+    background: #f6ecff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.25rem;
+}
+
+.flash_cards_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flash_card_text {
+    width: 50%;
+    height: 100%;
+    margin: 0.5rem;
+}
+
+.team {
+    max-width: 1242px;
+    margin: 2em auto 0;
+    height: 20%;
+    padding: 2rem;
+    background: #fffaeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(6, 80px);
+    grid-gap: 4px;
+}
+
+@media screen and (max-width: 1023px) {
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        height: 20%;
+        cursor: pointer;
+    }
+
+    .comic_magazine {
+        /* width: 100%; */
+        /* height: 100vh; */
+    }
+
+    .comic_magazine_info {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .comic_magazine_info .magazine_text {
+        width: 100%;
+    }
+
+    /* .education_books {
+        width: 100%;
+        height: 100vh;
+    } */
+
+    .education_books_info {
+        flex-direction: column;
+    }
+
+    .education_books_info .education_text {
+        width: 100%;
+    }
+
+    /* .flash_cards { */
+        /* width: 100%;
+        height: 100vh;
+    } */
+
+    .flash_cards_info {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .flash_cards_info .flash_card_text {
+        width: 100%;
+    }
+
+    .images {
+        grid-template-columns: repeat(3, 80px);
+    }
+
+    .team {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .team .images {
+        grid-template-columns: repeat(6, 80px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .categories {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 20%;
+    }
+
+    /* .comic_magazine {
+        width: 100%;
+        height: 100vh;
+    } */
+
+    .comic_magazine_info {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .comic_magazine_info .magazine_text {
+        width: 100%;
+    }
+
+    /* .education_books {
+        width: 100%;
+        height: 100vh;
+    } */
+
+    .education_books_info {
+        flex-direction: column;
+    }
+
+    .education_books_info .education_text {
+        width: 100%;
+    }
+
+    /* .flash_cards {
+        width: 100%;
+        height: 100vh;
+    } */
+
+    .flash_cards_info {
+        flex-direction: column;
+        margin: 2rem;
+    }
+
+    .flash_cards_info .flash_card_text {
+        width: 100%;
+    }
+
+    .images {
+        grid-template-columns: repeat(3, 80px);
+    }
+
+    .team {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .team .images {
+        grid-template-columns: repeat(3, 80px);
+    }
+}
