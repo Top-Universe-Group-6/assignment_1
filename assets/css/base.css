@@ -74,9 +74,17 @@ img {
     max-width: 100%;
 }
 
-main {
+body {
     background: var(--light-grey);
+}
+
+main {
     padding: 0 2rem;
+}
+
+footer {
+    padding: 3rem 2rem;
+    background: var(--white-color);
 }
 
 .radius-125 {
